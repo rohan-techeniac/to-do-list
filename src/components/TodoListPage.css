@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  background: #066acd;
+}
+
+.title {
+  margin: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.Container {
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  background: white;
+  border-radius: 10px;
+  min-width: 450px;
+  position: absolute;
+  min-height: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.headercontainer {
+  display: flex;
+  margin: 10px;
+}
+
+.logoutbutton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 12px;
+  min-width: 100px;
+  border: 0px;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  border-radius: 8px;
+  background: #e74c3c;
+  color: #ffffff;
+}
